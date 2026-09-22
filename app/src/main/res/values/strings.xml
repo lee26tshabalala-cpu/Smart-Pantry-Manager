@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+
+    <!-- Titles -->
+    <string name="title_pantry_list">My Pantry</string>
+    <string name="title_add_ingredient">Add Ingredient</string>
+    <string name="title_edit_ingredient">Edit Ingredient</string>
+    <string name="title_suggested_recipes">Suggested Recipes</string>
+    <string name="title_recipe_detail">Recipe</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Nav -->
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_suggested">Recipes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Pantry list -->
+    <string name="empty_pantry">Your pantry is empty. Tap + to add an ingredient.</string>
+    <string name="expiry_prefix">Expires: %1$s</string>
+    <string name="add_ingredient_fab_desc">Add ingredient</string>
+
+    <!-- Add/Edit form -->
+    <string name="hint_ingredient_name">Ingredient name</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_expiry_date">Expiry date (optional, yyyy-MM-dd)</string>
+    <string name="button_save">Save</string>
+    <string name="error_name_required">Ingredient name is required</string>
+    <string name="error_quantity_required">Quantity is required</string>
+    <string name="error_quantity_invalid">Enter a valid number</string>
+    <string name="error_quantity_positive">Quantity must be greater than zero</string>
+
+    <!-- Suggested recipes -->
+    <string name="empty_suggested_recipes">No recipes match your pantry yet — add more ingredients.</string>
+    <string name="ingredient_count">%1$d ingredients</string>
+
+    <!-- Recipe detail -->
+    <string name="recipe_not_found">Recipe not found.</string>
+    <string name="label_ingredients">Ingredients</string>
+    <string name="label_method">Method</string>
+
+    <!-- Settings -->
+    <string name="label_expiry_alerts">Expiring-soon alerts</string>
+    <string name="label_unit_preference">Preferred unit system</string>
+    <string name="unit_metric">Metric (g, ml)</string>
+    <string name="unit_imperial">Imperial (oz, cups)</string>
+</resources>
